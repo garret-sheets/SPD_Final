@@ -1,0 +1,134 @@
+chrome
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  font-family: sans-serif;
+  background-color: maroon;
+  color: beige;
+}
+
+
+.loginpage h3 {
+  text-align: center;
+  background-color: beige;
+  color: maroon;
+}
+
+.loginpage p {
+  color: maroon;
+  text-align: center;
+}
+
+.button {
+  background-color: white;
+  padding: 6px 10px;
+  color: black;
+  border: 1px solid black;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+h3 {
+  color: maroon;
+  font-weight: bold;
+}
+
+
+/*end of client classes */
+footer {
+  background-color: maroon;
+  color: beige;
+  font-family: sans-serif;
+  font-size: smaller;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.homepagebox {
+  border: solid 2px grey;
+  padding: 5px;
+  padding-right: 25px;
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 15px;
+}
+
+/* This section is for the survey form style
+ */
+form {
+  /* background-color: peachpuff; */
+  padding: 15px;
+  border: 1px solid black;
+}
+
+input,
+select,
+textarea {
+  margin-bottom: 6px;
+  /* background-color: skyblue; */
+}
+
+textarea {
+  height: 100px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 6px 10px 6px 10px;
+  border-radius: 10px;
+}
+
+/* .button:hover {
+  background-color: skyblue;
+  color: black;
+} */
+
+
+label {
+  display: inline-block;
+  /* if we want some inline to act as block or block to act as inline */
+  width: 100px;
+}
+
+/* Survey form style ends */
+
+.greentext {
+  color: green;
+}
+
+.padded {
+  padding: 5px;
+  padding-left: 10px
+}
+
+
+.confirmation H2 {
+  color: green;
+}
+
+.viewsec_head {
+  background-color: maroon;
+  color: beige;
+  top: 0;
+  position: sticky;
+}
+
+#table_scroll {
+  height:250px;
+  overflow:auto;  
+  /* margin-top:20px; */
+}
+
+.table_header {
+  text-align: center;
+  font-weight: bold;
+}

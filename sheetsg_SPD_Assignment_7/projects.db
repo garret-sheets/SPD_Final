@@ -1,0 +1,21 @@
+import sqlite3
+
+# Connect to the SQLite database (or create it if it doesn't exist)
+conn = sqlite3.connect("projects.db")
+cursor = conn.cursor()
+
+# Modify the "projects" table creation to include the "image_filename" column
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS projects (
+        id INTEGER PRIMARY KEY,
+        Title TEXT NOT NULL,
+        Description TEXT,
+        ImageFileName TEXT
+    )
+''')
+
+# Commit the changes and close the connection
+conn.commit()
+conn.close()
+
+print("Database and table created successfully.")
